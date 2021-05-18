@@ -44,8 +44,10 @@
 
 .d2 {
     order: 3;
+    flex-grow: 1;
 }
 
 .d3 {
     order: 2;
+    flex-grow: 1;
 }
