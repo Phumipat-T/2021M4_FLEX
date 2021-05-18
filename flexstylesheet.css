@@ -1,13 +1,13 @@
 .flex-container {
     display: flex;
-    direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .inline-flex-container {
     display: inline-flex;
-    direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .bg-red {
