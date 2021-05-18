@@ -2,12 +2,16 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    align-items: center;
+    align-content: center;
 }
 
 .inline-flex-container {
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+    align-items: center;
+    align-content: center;
 }
 
 .bg-red {
@@ -32,4 +36,16 @@
     padding: 10px;
     font-size: 25px;
     width: 70px;
+}
+
+.d1 {
+    order: 1;
+}
+
+.d2 {
+    order: 3;
+}
+
+.d3 {
+    order: 2;
 }
