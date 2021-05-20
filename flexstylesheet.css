@@ -1,48 +1,62 @@
-.flex-container {
-    display: flex;
-    flex-flow: row no-wrap;
+.flex {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
-.inline-flex-container {
-    display: inline-flex;
-    flex-flow: row no-wrap;
-}
-
-.bg-red {
-    background-color: red;
-}
-
-.bg-blue {
-    background-color:skyblue;
-}
-
-.flex-container>div {
-    background-color: darkgray;
+.flex>div {
+    background-color: darkgrey;
     margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    width: 600px;
+    padding: 10px;
+    font-size:30px;
 }
 
-.inline-flex-container>div {
-    background-color: lightgray;
+.flex2{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: flex-start;
+}
+
+.flex2>div {
+    background-color: darkgrey;
     margin: 20px;
     padding: 10px;
     font-size: 25px;
-    width: 70px;
 }
 
-.d1 {
-    order: 1;
-    flex-basis: 200px;
+.flex3 {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
-.d2 {
-    order: 3;
-    flex-basis: 100px;
+.flexwrap{
+    display:flex;
 }
 
-.d3 {
-    order: 2;
-    flex-basis: 100px;
+.menu {
+    background: lightgrey;
+    width:150px;
+    margin-left:10px;
+    border:2px solid black;
+    height:270px;
+}
+
+.head {
+    background-color: lightgrey;
+    border:2px solid black;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.content{
+    background-color:lightgrey;
+    padding-left:10px;
+    border:1px solid black;
+    padding-right:10000px;
+}
+
+.content p{
+    margin-right:10px;
+    width:auto;
 }
